@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_4sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/songImage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="0.65"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/songName"
+                        style="@style/ListItemTitleStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/artistName"
+                        style="@style/ListItemSubTitleStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:layout_toLeftOf="@+id/shuffle"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_close"
+                    app:tint="@color/colorPrimaryTextBlack" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/previous"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginRight="18dp"
+                    android:src="@drawable/ic_previous"
+                    app:tint="@color/colorPrimaryTextBlack" />
+
+                <ImageView
+                    android:id="@+id/play_pause"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginRight="18dp"
+                    android:clickable="true"
+                    android:src="@drawable/ic_play"
+                    app:tint="@color/colorPrimaryTextBlack" />
+
+                <ImageView
+                    android:id="@+id/next"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/ic_next"
+                    app:tint="@color/colorPrimaryTextBlack" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

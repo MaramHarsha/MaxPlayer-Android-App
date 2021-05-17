@@ -1,0 +1,29 @@
+
+g
+java:S1104"QMake title a static final constant or non-public and provide accessors if needed.(á¢Ù™
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(œ¼ˆ¾ûÿÿÿÿ
+d
+java:S1104"NMake p3 a static final constant or non-public and provide accessors if needed.(‰ûÓÆ
+i
+java:S1104"NMake p2 a static final constant or non-public and provide accessors if needed.(úŞ·¶ÿÿÿÿÿ
+d
+java:S1104"NMake p1 a static final constant or non-public and provide accessors if needed.(‰³ñÄ
+I
+java:S1602B",Remove useless curly braces around statement(éÌæï8Ş™—è/
+u
+java:S1450"ZRemove the "back_secure" field and declare it as a local variable in the relevant methods.(Š‡êúÿÿÿÿ
+d
+java:S1104"NMake p4 a static final constant or non-public and provide accessors if needed.(†Ùûº
+P
+java:S1128".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8„ÉŸè/
+Z
+java:S1128
+"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8µ›è/
+o
+java:S1104"TMake passcode a static final constant or non-public and provide accessors if needed.(¿§›Ùøÿÿÿÿ
+\
+java:S1128
+":Remove this unused import 'android.widget.RelativeLayout'.(ü¯ğõşÿÿÿÿ8µ›è/
+k
+java:S1104"PMake temp a static final constant or non-public and provide accessors if needed.(èã»”üÿÿÿÿ
+p	java:S116"VRename this field "back_secure" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š‡êúÿÿÿÿ

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@drawable/rectangle_trade_small_green"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:indicatorColor="@color/colorPrimary"
+        app:indicatorName="LineSpinFadeLoaderIndicator" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/avi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="Ad Show Here.."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+</RelativeLayout>

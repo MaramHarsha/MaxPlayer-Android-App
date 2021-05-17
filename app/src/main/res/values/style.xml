@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+    </style>
+
+    <style name="FullScreen">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ProgressTheme">
+        <item name="colorAccent">#000000</item>
+    </style>
+
+    <style name="jz_popup_toast_anim">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="jz_style_dialog_progress">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/jz_popup_toast_anim</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="pop_animation">
+        <item name="android:windowEnterAnimation">@anim/pop_from_bottom_anim_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_from_bottom_anim_out</item>
+    </style>
+
+    <style name="ListItemSubTitleStyle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lineSpacingExtra">0px</item>
+    </style>
+
+    <style name="ListItemSubTitleStyle1">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lineSpacingExtra">0px</item>
+    </style>
+
+    <style name="ListItemTitleStyle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ListItemTitleStyle1">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="DialogTitleStyle">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="WideDialog">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+    <style name="AppTheme.AdAttribution">
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">#ffcc66</item>
+        <item name="android:padding">@dimen/_1sdp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Ad</item>
+    </style>
+</resources>

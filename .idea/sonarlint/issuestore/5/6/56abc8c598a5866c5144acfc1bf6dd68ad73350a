@@ -1,0 +1,32 @@
+
+x	java:S116v"^Rename this field "video_floating_mode" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼€Éæúÿÿÿÿ
+u	java:S116u"`Rename this field "video_background_play" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¨¨º
+p	java:S1167"\Rename this field "app_video_shuffle" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÇ¾\
+{	java:S116w"aRename this field "video_playback_options" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯©´ıÿÿÿÿ
+?
+java:S2153É"#Remove the unboxing from "Integer".(¿ËÏĞşÿÿÿÿ
+u	java:S1166"[Rename this field "app_video_repete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÇÃ¯úÿÿÿÿ
+s	java:S1161"YRename this field "app_video_lock" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸİÏ°ùÿÿÿÿ
+:
+java:S2153¦"#Remove the unboxing from "Integer".(Í‚«¡
+s	java:S1163"YRename this field "app_video_mute" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷îø±ıÿÿÿÿ
+u	java:S1169"[Rename this field "app_video_unlock" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß»±ûÿÿÿÿÿ
+w	java:S1165"]Rename this field "app_video_previous" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×İ½½úÿÿÿÿ
+C
+java:S1481“"'Remove this unused "j2" local variable.(œ×¥ıÿÿÿÿ
+q	java:S116q"WRename this field "speed_layout" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¿ğ°üÿÿÿÿ
+z	java:S116e"`Rename this field "play_back_speed_close" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö†ÕÜşÿÿÿÿ
+n	java:S116x"YRename this field "video_playlist" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÈƒİ
+n	java:S1162"YRename this field "app_video_more" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™„ÚÚ
+s	java:S1164"YRename this field "app_video_next" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“˜­ãûÿÿÿÿ
+C
+java:S1481†
+"'Remove this unused "i2" local variable.(Ææ±÷ûÿÿÿÿ
+n	java:S1160"YRename this field "app_video_crop" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¨áÕ
+y	java:S116y"_Rename this field "video_playlist_close" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«–½¸øÿÿÿÿ
+v	java:S116{"aRename this field "videoplaylist_recycler" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õèÿ
+o	java:S1168"ZRename this field "app_video_speed" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄĞ—À
+u	java:S116z"[Rename this field "video_screenshot" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î°¢Ûùÿÿÿÿ
+s
+java:S1450x"]Remove the "video_playlist" field and declare it as a local variable in the relevant methods.(ìÈƒİ
+j	java:S116c"VRename this field "media_datas" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö€‹

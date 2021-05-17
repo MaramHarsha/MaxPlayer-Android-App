@@ -1,0 +1,13 @@
+
+p	java:S116X"[Rename this field "app_video_p_skip" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é›™
+>
+java:S1481	"'Remove this unused "f2" local variable.(ô°®–
+p	java:S116W"[Rename this field "app_video_n_skip" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ş³
+>
+java:S1481	"'Remove this unused "f3" local variable.(ˆ˜©Ş
+8
+java:S2386%"Make this member "protected".(À Çûÿÿÿÿ
+W
+java:S2184³"@Cast one of the operands of this integer division to a "double".(ÅÎÀè
+n	java:S116Y"YRename this field "app_video_play" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ÂÊ·
+z	java:S116V"`Rename this field "UPDATE_PROGRESS_TIMER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç¸Ó‘øÿÿÿÿ

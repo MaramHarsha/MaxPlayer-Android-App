@@ -1,0 +1,11 @@
+
+v
+java:S1104"[Make questionSpinner a static final constant or non-public and provide accessors if needed.(ò­ƒäşÿÿÿÿ
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(˜æ·!
+w
+java:S1450"\Remove the "back_question" field and declare it as a local variable in the relevant methods.(œÀ± ûÿÿÿÿ
+r	java:S116"XRename this field "back_question" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÀ± ûÿÿÿÿ
+v
+java:S1450"[Remove the "saveQuestion" field and declare it as a local variable in the relevant methods.(ˆç¥õùÿÿÿÿ
+u
+java:S1104"ZMake securityAnswer a static final constant or non-public and provide accessors if needed.(Ãûºùÿÿÿÿ

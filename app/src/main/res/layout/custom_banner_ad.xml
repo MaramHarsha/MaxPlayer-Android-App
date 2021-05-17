@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#ebebeb"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_icon"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/img_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:padding="3dp" />
+
+            <TextView
+                style="@style/AppTheme.AdAttribution"
+                android:layout_alignParentTop="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="2dp"
+            android:layout_toLeftOf="@+id/ll_install"
+            android:layout_toRightOf="@+id/rl_icon"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtappname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text=" "
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtdescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:lines="3"
+                android:minLines="3"
+                android:singleLine="false"
+                android:text=" "
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_install"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btninstall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:text="Install"
+                android:textColor="@color/white"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

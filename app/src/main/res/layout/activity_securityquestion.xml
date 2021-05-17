@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/back_question"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="@dimen/_7sdp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:text="Security Question"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ll1"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:src="@drawable/question" />
+
+    <LinearLayout
+        android:id="@+id/question_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll1"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ListItemSubTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text="Security Question"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+        <Spinner
+            android:id="@+id/questionSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:padding="@dimen/_8sdp" />
+
+        <EditText
+            android:id="@+id/securityAnswer"
+            style="@style/ListItemTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_14sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/edit_border"
+            android:hint="Answer"
+            android:padding="@dimen/_12sdp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/saveQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_43sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/bg_round_corner_color_primary"
+            android:gravity="center"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="ad loding..." />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

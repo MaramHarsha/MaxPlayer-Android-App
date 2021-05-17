@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <item android:title="Sort By">
+            <menu>
+                <item android:id="@+id/menu_size" android:title="Size"/>
+                <item android:id="@+id/menu_name" android:title="Name"/>
+                <item android:id="@+id/menu_date" android:title="Date"/>
+            </menu>
+        </item>
+        <item android:title="View As">
+            <menu>
+                <item android:id="@+id/menu_grid" android:title="Grid"/>
+                <item android:id="@+id/menu_list" android:title="List"/>
+            </menu>
+        </item>
+    </group>
+</menu>
