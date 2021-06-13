@@ -5,6 +5,11 @@ It is the best video player full fulfills all your media player needs and an att
 
 It supports all popular video formats, including AVI, 3GP, M4V, MOV, MP4, WMV, RMVB, MKV, TS, MPG, FLV, etc… It uses hardware decoding, which makes video play smoother. It can automatically detect videos in the phone memory and SD Card, allowing you to quickly locate and play the video. The video player can play all ultra high definition video (HD video, 4k video) files too.
 
+![1 (1)](https://user-images.githubusercontent.com/73836896/121799719-3d6b7c80-cc4b-11eb-8bab-1cb23f6ff75b.png)
+![2](https://user-images.githubusercontent.com/73836896/121799721-3f354000-cc4b-11eb-9ecc-fc4a07e179dc.png)
+![3](https://user-images.githubusercontent.com/73836896/121799724-42303080-cc4b-11eb-9ff8-a54313e6ee0f.png)
+
+
 ## KEY FEATURES:
 Automatically detect all Video and Music files on your phone. – Plays all the video formats smoothly, supports HD, Full HD, and 4k videos. – Floating play window – Small size, small memory usage, and High-Efficiency playback – quick start – Easy manage and playback All your video and audio files – Browse files and folders in storage – Swipe controls for volume – Support auto-rotation, aspect-ratio adjustments. – Easy take video Screen shoot when playing – Easy Volume control in playing.
 Video Player application is a totally free stunning player for Android devices. You can watch all the popular videos on your phone or tablet with multiple functionalities.
